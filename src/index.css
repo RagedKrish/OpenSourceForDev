@@ -3,3 +3,32 @@
 @tailwind utilities;
 
 body{background-color: black;}
+
+/* Custom CSS for Dotted Background */
+.bg-dotted {
+  position: relative;
+  background-color: #111111; /* Dark background for contrast */
+  overflow: hidden;
+}
+
+.bg-dotted::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(white 2px, transparent 2px);
+  background-size: 30px 30px; /* Spacing for the dots */
+  opacity: 0.3; /* Opacity only affects the background */
+  z-index: 0;
+  background-attachment: fixed;
+}
+
+/* To ensure the content remains above the pseudo-element */
+.bg-dotted > * {
+  position: relative;
+  z-index: 1;
+}
+
+

@@ -1,8 +1,10 @@
 import React from 'react';
+import Navbar from './navbar';
 
 const Features = () => {
   return (
     <div className="bg-darkBg text-darkText min-h-screen flex items-center justify-center p-8">
+      <Navbar/>
       <div className="bg-cardBg p-12 rounded-md max-w-3xl text-center">
         <h2 className="text-4xl font-bold text-white mb-6">Our Features</h2>
         <p className="mb-4">
