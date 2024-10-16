@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from './navbar';
 
 const Dashboard = () => {
     const [user, setUser] = useState({ username: 'JohnDoe' }); // Mock user state
@@ -79,12 +78,11 @@ const Dashboard = () => {
     const handleSignOut = () => {
         // Clear user state (add actual sign-out logic here)
         setUser(null);
-        navigate('/OpenSourcefordev/login'); // Redirect to the login page
+        navigate('/login'); // Redirect to the login page
     };
 
     return (
         <div className="bg-darkBg text-darkText min-h-screen p-8">
-            <Navbar/>
             {/* User Profile Section */}
             <div className="flex items-center mb-8">
                 {user ? (

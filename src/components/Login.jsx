@@ -70,7 +70,7 @@ const Login = () => {
           </button>
         </form>
         <p className="mt-4">
-          Don't have an account? <Link to="/OpenSourcefordev/signup" className="text-primaryPurple">Sign Up</Link>
+          Don't have an account? <Link to="/signup" className="text-primaryPurple">Sign Up</Link>
         </p>
       </div>
     </div>

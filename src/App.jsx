@@ -15,15 +15,15 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/OpenSourcefordev/" element={<LandingPage />} />
-        <Route path="/OpenSourcefordev/signup" element={<Signup />} />
-        <Route path="/OpenSourcefordev/login" element={<Login />} />
-        <Route path="/OpenSourcefordev/about" element={<About />} />
-        <Route path="/OpenSourcefordev/features" element={<Features />} />
-        <Route path="/OpenSourcefordev/contact" element={<Contact />} />
-        <Route path="/OpenSourcefordev/projects" element={<Projects />} />
-        <Route path="/OpenSourcefordev/getstarted" element={<GetStarted />} />
-        <Route path="/OpenSourcefordev/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/getstarted" element={<GetStarted />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );

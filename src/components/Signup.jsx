@@ -77,7 +77,7 @@ const Signup = () => {
           </button>
         </form>
         <p className="mt-4">
-          Already have an account? <Link to="/OpenSourcefordev/login" className="text-primaryPurple">Log In</Link>
+          Already have an account? <Link to="/login" className="text-primaryPurple">Log In</Link>
         </p>
       </div>
     </div>

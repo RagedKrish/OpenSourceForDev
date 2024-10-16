@@ -19,7 +19,7 @@ const LandingPage = () => {
                     <div className='grid min-h-screen content-center'>
                     <h2 className="text-5xl font-bold mb-4 text-white">Connect & Contribute to Open Source</h2>
                     <p className="text-lg mb-6">Empowering developers to build the future together.</p>
-                    <Link to='/OpenSourcefordev/getstarted'><button className="bg-primaryPurple px-8 py-4 rounded-md text-black text-xl">Get Started</button></Link>
+                    <Link to='/getstarted'><button className="bg-primaryPurple px-8 py-4 rounded-md text-black text-xl">Get Started</button></Link>
                     </div>
                 </section>
 

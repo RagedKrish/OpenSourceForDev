@@ -35,22 +35,22 @@ const navbar = () => {
                     </button>
                     {/* Desktop Menu */}
                     <nav className="hidden md:flex space-x-6 md:items-center">
-                        <Link to="/OpenSourcefordev/about" className="hover:text-primaryPurple">About</Link>
-                        <Link to="/OpenSourcefordev/features" className="hover:text-primaryPurple">Features</Link>
-                        <Link to="/OpenSourcefordev/projects" className="hover:text-primaryPurple">Projects</Link>
-                        <Link to="/OpenSourcefordev/contact" className="hover:text-primaryPurple">Contact</Link>
-                        <Link to="/OpenSourcefordev/signup" className="bg-primaryPurple px-4 py-2 rounded-md text-black">Join Us</Link>
+                        <Link to="/about" className="hover:text-primaryPurple">About</Link>
+                        <Link to="/features" className="hover:text-primaryPurple">Features</Link>
+                        <Link to="/projects" className="hover:text-primaryPurple">Projects</Link>
+                        <Link to="/contact" className="hover:text-primaryPurple">Contact</Link>
+                        <Link to="/signup" className="bg-primaryPurple px-4 py-2 rounded-md text-black">Join Us</Link>
                     </nav>
                 </div>
                 {/* Mobile Menu */}
                 {isMenuOpen && (
                     <nav className="md:hidden mt-4">
                         <ul className="space-y-4">
-                            <li><Link to="/OpenSourcefordev/about" className="hover:text-primaryPurple">About</Link></li>
-                            <li><Link to="/OpenSourcefordev/features" className="hover:text-primaryPurple">Features</Link></li>
-                            <li><Link to="/OpenSourcefordev/projects" className="hover:text-primaryPurple">Projects</Link></li>
-                            <li><Link to="/OpenSourcefordev/contact" className="hover:text-primaryPurple">Contact</Link></li>
-                            <li><Link to="/OpenSourcefordev/signup" className="block bg-primaryPurple px-4 py-2 rounded-md text-center text-black">Join Us</Link></li>
+                            <li><Link to="/about" className="hover:text-primaryPurple">About</Link></li>
+                            <li><Link to="/features" className="hover:text-primaryPurple">Features</Link></li>
+                            <li><Link to="/projects" className="hover:text-primaryPurple">Projects</Link></li>
+                            <li><Link to="/contact" className="hover:text-primaryPurple">Contact</Link></li>
+                            <li><Link to="/signup" className="block bg-primaryPurple px-4 py-2 rounded-md text-center text-black">Join Us</Link></li>
                         </ul>
                     </nav>
                 )}

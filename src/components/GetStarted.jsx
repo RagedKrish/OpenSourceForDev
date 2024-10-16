@@ -14,13 +14,13 @@ const GetStarted = () => {
         <p className="mb-4">
           Whether you want to contribute to existing projects, learn new skills, or connect with other developers, we’ve got something for you.
         </p>
-        <Link to="/OpenSourcefordev/signup">
+        <Link to="/signup">
           <button className="bg-primaryPurple text-black font-bold py-3 px-8 rounded-md hover:bg-opacity-90 transition-opacity duration-300">
             Join Now
           </button>
         </Link>
         <p className="mt-6 text-gray-400">
-          Already a member? <Link to="/OpenSourcefordev/login" className="text-primaryPurple hover:underline">Login here</Link>.
+          Already a member? <Link to="/login" className="text-primaryPurple hover:underline">Login here</Link>.
         </p>
       </div>
     </div>
